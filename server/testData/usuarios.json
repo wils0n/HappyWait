@@ -1,0 +1,38 @@
+[
+	{
+		"model":"Usuario",
+		"data":{
+			"dni":"00000001",
+			"nombres":"Pepito 1"
+		}
+	},
+	{
+		"model":"Usuario",
+		"data":{
+			"dni":"00000002",
+			"nombres":"Pepito 2"
+		}
+	},
+	{
+		"model":"Usuario",
+		"data":{
+			"dni":"00000003",
+			"nombres":"Pepito 3"
+		}
+	},
+	{
+		
+		"model":"Usuario",
+		"data":{
+			"dni":"00000004",
+			"nombres":"Pepito 4"
+		}
+	},
+	{
+		"model":"Usuario",
+		"data":{
+			"dni":"00000005",
+			"nombres":"Pepito 5"
+		}
+	}
+]

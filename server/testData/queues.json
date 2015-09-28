@@ -1,0 +1,30 @@
+[
+	{
+		"model":"Queue",
+		"data":{
+			"descripcion":"1er piso comedor",
+			"establecimiento" : 1
+		}
+	},
+	{
+		"model":"Queue",
+		"data":{
+			"descripcion":"2do piso comedor",
+			"establecimiento" : 1
+		}
+	},
+	{
+		"model":"Queue",
+		"data":{
+			"descripcion":"Cola de peticion de libros",
+			"establecimiento" : 2
+		}
+	},
+	{
+		"model":"Queue",
+		"data":{
+			"descripcion":"Cola de carnet",
+			"establecimiento" : 2
+		}
+	}
+]

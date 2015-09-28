@@ -1,0 +1,12 @@
+{
+  "name": "Queue",
+  "version": "1.0.0",
+  "description": "Queue web service",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "sequelize": "^3.6.0",
+    "sequelize-fixtures": "^0.4.7"
+  }
+}

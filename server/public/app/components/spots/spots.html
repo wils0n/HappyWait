@@ -1,0 +1,18 @@
+<div>
+	<h1>Spots</h1>
+	<table border="1">
+		<tr>
+			<td>id</td>
+			<td>Descripcion</td>
+		</tr>
+		<tr ng-repeat="spot in spots ">
+			<td>{{spot.idEstablecimiento}}</td>
+			<td>{{spot.descripcion}}</td>
+			<td>
+				<a ui-sref="dash.queue({idEstablecimiento:spot.idEstablecimiento})">Ver</a>  
+			</td>
+
+		</tr>
+	</table>
+	
+</div>

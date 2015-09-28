@@ -1,0 +1,21 @@
+[
+	{
+		"model":"Establecimiento",
+		"data":{
+			"idEstablecimiento":1,
+			"descripcion":"Comedor San Marcos",
+			"lat":-12.059361,
+			"lng":-77.083152
+		}
+	},
+	{
+		"model":"Establecimiento",
+		"data":{
+			"idEstablecimiento":2,
+			"descripcion":"Biblioteca San Marcos",
+			"lat":-12.055648, 
+			"lng":-77.085674
+		}
+	}
+
+]

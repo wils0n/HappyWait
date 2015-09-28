@@ -1,0 +1,12 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "logging":false,
+    "database": "queue_system",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "timezone":"-05:00",
+    "charset": "utf8"
+  }
+}
