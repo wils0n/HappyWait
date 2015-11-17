@@ -4,8 +4,8 @@
 		"data":{
 			"idEstablecimiento":1,
 			"descripcion":"Comedor San Marcos",
-			"lat":-12.059361,
-			"lng":-77.083152
+			"lat":-12.059359,
+			"lng":-77.0829982
 		}
 	},
 	{
@@ -15,6 +15,15 @@
 			"descripcion":"Biblioteca San Marcos",
 			"lat":-12.055648, 
 			"lng":-77.085674
+		}
+	},
+	{
+		"model":"Establecimiento",
+		"data":{
+			"idEstablecimiento":3,
+			"descripcion":"Clinica San Marcos",
+			"lat":-12.055640,
+			"lng":-77.085679
 		}
 	}
 

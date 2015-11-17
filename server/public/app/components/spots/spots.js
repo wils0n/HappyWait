@@ -8,7 +8,7 @@ angular.module("spots",[])
 			})
 	})
 	.controller("mainController",function  ($scope,$http,spots) {
-		$scope.spots = spots.data;
+		$scope.spots = spots;
 		console.log(spots);
 					
 	})

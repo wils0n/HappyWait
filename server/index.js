@@ -8,15 +8,15 @@ app.use(bodyParser.json());
 
 
 
-app.use("/user",components.user);
-app.use("/queue",components.queue);
-app.use("/spot",components.spot);
+app.use("/api/user",components.user);
+app.use("/api/queue",components.queue);
+app.use("/api/spot",components.spot);
 app.use(express.static(__dirname+"/public"));
 app.get("/",components.index);
 app.all("*",function  (req,res) {
 	console.log("redirigiendo");
 	res.redirect("/");
 });
-app.listen(3000);
+app.listen(3000,'0.0.0.0');
 
 console.log("Api corriendo en localhost:3000");

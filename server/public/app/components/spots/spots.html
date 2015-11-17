@@ -5,7 +5,7 @@
 			<td>id</td>
 			<td>Descripcion</td>
 		</tr>
-		<tr ng-repeat="spot in spots ">
+		<tr ng-repeat="spot in spots track by $index">
 			<td>{{spot.idEstablecimiento}}</td>
 			<td>{{spot.descripcion}}</td>
 			<td>
