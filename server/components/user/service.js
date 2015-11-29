@@ -16,7 +16,7 @@ userService.createUser = function  (req,cb) {
 		return cb(error);
 	}
 
-	if(!req.body.dni.toString().length!==8){
+	if(req.body.dni.toString().length!==8){
 		error.status  = 400;
 		error.message = "El dni debe tener 8 digitos";
 		return cb(error);
