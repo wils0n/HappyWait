@@ -7,10 +7,10 @@ module.exports = function(sequelize, DataTypes) {
         primaryKey : true,
         autoIncrement : true
       },
-		  posicion: {
+      posicion: {
         type : DataTypes.INTEGER,
         allowNull : false
-		  }
+      }
     }, 
     {
       paranoid:true,

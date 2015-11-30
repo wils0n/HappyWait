@@ -1,18 +1,10 @@
-<div>
-	<h1>Spots</h1>
-	<table border="1">
-		<tr>
-			<td>id</td>
-			<td>Descripcion</td>
-		</tr>
-		<tr ng-repeat="spot in spots track by $index">
-			<td>{{spot.idEstablecimiento}}</td>
-			<td>{{spot.descripcion}}</td>
-			<td>
-				<a ui-sref="dash.queue({idEstablecimiento:spot.idEstablecimiento})">Ver</a>  
-			</td>
-
-		</tr>
-	</table>
-	
+<md-content  layout="row" layout-wrap layout-align="center start">
+<div flex="50" layout="column">
+    <md-card ng-repeat="spot in spots">
+        <img ng-src="{{spot.urlImg}}" class="md-card-image" ui-sref="dash.spot_detail({idSpot:spot.idEstablecimiento})">
+        <md-card-title>
+            <h3>{{spot.descripcion}}</h3>
+        </md-card-title>
+    </md-card>
 </div>
+</md-content>

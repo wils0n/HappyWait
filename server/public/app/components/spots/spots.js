@@ -4,11 +4,15 @@ angular.module("spots",[])
 			.state("dash.spots",{
 				url:"/spots",
 				templateUrl:"/app/components/spots/spots.html",
-				controller:"mainController"
+				controller:"mainController",
+				resolve:{
+					spots: function  (spotService) {
+						return spotService.query().$promise;
+					}
+				}
 			})
 	})
-	.controller("mainController",function  ($scope,$http,spots) {
+	.controller("mainController",function  ($scope,spots) {
 		$scope.spots = spots;
-		console.log(spots);
 					
 	})

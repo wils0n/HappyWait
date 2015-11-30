@@ -4,8 +4,9 @@
 		"data":{
 			"idEstablecimiento":1,
 			"descripcion":"Comedor San Marcos",
-			"lat":-12.059359,
-			"lng":-77.0829982
+			"lat":12.0593327,
+			"lng":-77.0853557,
+			"urlImg":"https://lamula.pe/media/uploads/6bba76a3-eaf4-4676-9b74-cb9d23e199a7.jpg"
 		}
 	},
 	{
@@ -14,7 +15,8 @@
 			"idEstablecimiento":2,
 			"descripcion":"Biblioteca San Marcos",
 			"lat":-12.055648, 
-			"lng":-77.085674
+			"lng":-77.085674,
+			"urlImg":"http://www.unmsm.edu.pe/noticias/templates/noticias2012/octubre/d09/biblioteca_01.jpg"
 		}
 	},
 	{
@@ -23,8 +25,8 @@
 			"idEstablecimiento":3,
 			"descripcion":"Clinica San Marcos",
 			"lat":-12.055640,
-			"lng":-77.085679
+			"lng":-77.085679,
+			"urlImg":"http://www.unmsm.edu.pe/noticias/templates/noticias2011/junio/d22/digitalizador6g.jpg"
 		}
 	}
-
 ]

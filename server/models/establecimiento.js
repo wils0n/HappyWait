@@ -16,8 +16,12 @@ module.exports = function(sequelize, DataTypes) {
       },
       lng : {
         type : DataTypes.REAL
+      },
+      urlImg: {
+          type:DataTypes.STRING
       }
-    }, 
+    }
+    ,
     {
       createdAt : "fechaCreacion",
       updatedAt : "fechaModificacion",

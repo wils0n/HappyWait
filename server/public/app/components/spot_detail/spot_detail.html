@@ -1,0 +1,38 @@
+
+<h1>
+    <md-icon md-font-set="material-icons  md-48" aria-label="balance">account_balance</md-icon>
+    {{spot.descripcion}}
+</h1>
+
+
+
+<div layout="row">
+    <div flex>
+        <md-content>
+
+            <md-list>
+                <md-list-item class="md-3-line" ng-repeat="queue in spot.queues">
+                    <div md-ink-ripple class="md-list-item-text" layout="column" ui-sref="dash.queue({idQueue:queue.idQueue})">
+                        <h3>{{ queue.descripcion }}</h3>
+                    </div>
+                    <md-divider></md-divider>
+                </md-list-item>
+            </md-list>
+        </md-content>
+    </div>
+    <div flex></div>
+    <div flex>
+        <md-content>
+            <ui-gmap-google-map center='map.center' zoom='20'>
+                <ui-gmap-marker
+                        idKey='spot.idEstablecimiento'
+                        coords='map.center'>
+                </ui-gmap-marker>
+            </ui-gmap-google-map>
+        </md-content>
+    </div>
+
+</div>
+
+
+

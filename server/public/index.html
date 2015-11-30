@@ -1,16 +1,28 @@
 <html>
 <head>
 	<title>Queue System</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="assets/vendor/angular-material/angular-material.min.css">
+	<link rel="stylesheet" href="assets/style.css">
 </head>
 <body ng-app="app">
 	<div ui-view></div>
-
+	<!-- Vendor -->
 	<script src="assets/vendor/angular/angular.min.js"></script>
+	<script src="assets/vendor/angular-simple-logger/dist/angular-simple-logger.min.js"></script>
+	<script src="assets/vendor/lodash/lodash.min.js"></script>
+	<script src="assets/vendor/angular-google-maps/dist/angular-google-maps.min.js"></script>
 	<script src="assets/vendor/angular-ui-router/release/angular-ui-router.js"></script>
 	<script src="assets/vendor/angular-resource/angular-resource.js"></script>
+	<script src="assets/vendor/angular-animate/angular-animate.min.js"></script>
+	<script src="assets/vendor/angular-aria/angular-aria.min.js"></script>
+	<script src="assets/vendor/angular-material/angular-material.min.js"></script>
+	<!-- App -->
+	<script src="app/common/services/spot.js"></script>
+	<script src="app/common/services/queue.js"></script>
 	<script src="app/components/spots/spots.js"></script>
-	<script src="app/components/queues/detail/detail.js"></script>
-	<script src="app/components/queues/queues.js"></script>
+	<script src="app/components/queue/queue.js"></script>
+	<script src="app/components/spot_detail/spot_detail.js"></script>
 	<script src="app/app.js"></script>
 </body>
 </html>

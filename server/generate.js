@@ -12,7 +12,5 @@ models.sequelize.drop().then(function() {
 			.catch(function  (error) {
 				console.log(error);
 			})
-		
 	});
-
 });
