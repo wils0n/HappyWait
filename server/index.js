@@ -2,10 +2,10 @@ var express    = require("express");
 var app        = require("express")();
 var components = require("./components");
 var bodyParser = require("body-parser");
-
+var morgan = require('morgan');
 
 app.use(bodyParser.json());
-
+app.use(morgan('dev'));
 
 
 app.use("/api/user",components.user);

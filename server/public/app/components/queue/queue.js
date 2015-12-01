@@ -37,9 +37,8 @@ angular.module("queue", [])
             updateUsers();
         }
 
-        $scope.$on('destroy', function () {
-            if(timeout)
-                $timeout.cancel(timeout);
+        $scope.$on('$destroy', function () {
+            $timeout.cancel(timeout);
         });
 
         updateUsers();
